@@ -4,7 +4,7 @@
     "password": "SqlDatabaseRoot",
     "database": "chickenscratch_db",
     "host": "localhost",
-    "dialect": "mysql"
+        "dialect": "mysql"
   },
   "test": {
     "username": "root",
@@ -14,10 +14,8 @@
     "dialect": "mysql"
   },
   "production": {
-    "username": "root",
-    "password": null,
-    "database": "database_production",
-    "host": "127.0.0.1",
+    "use_env_variable":"JawsDB_URL",
     "dialect": "mysql"
   }
 }
+
